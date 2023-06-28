@@ -30,6 +30,12 @@ private slots:
     void on_TEMP_clicked();
     void newInfo(QLabel * info);
 
+    void on_user_clicked();
+
+    void on_hardware_clicked();
+
+    void on_servicii_clicked();
+
 private:
     Ui::Monitorizare *ui;
     QWidget* window;

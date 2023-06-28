@@ -19,7 +19,13 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Monitorizare_clicked()
 {
-    this->hide();
+
     mon=new Monitorizare();
-   mon->show();
+    mon->show();
+}
+
+void MainWindow::on_Actiuni_clicked()
+{
+    act=new Actiuni();
+    act->show();
 }

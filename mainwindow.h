@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "monitorizare.h"
+#include "actiuni.h"
 
 namespace Ui {
 class MainWindow;
@@ -19,9 +20,12 @@ public:
 private slots:
     void on_Monitorizare_clicked();
 
+    void on_Actiuni_clicked();
+
 private:
     Ui::MainWindow *ui;
     Monitorizare *mon;
+    Actiuni *act;
 };
 
 #endif // MAINWINDOW_H

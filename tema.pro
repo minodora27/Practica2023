@@ -14,13 +14,25 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    monitorizare.cpp
+    monitorizare.cpp \
+    actiuni.cpp \
+    procese.cpp \
+    copiere.cpp \
+    instalare.cpp
 
 HEADERS  += mainwindow.h \
-    monitorizare.h
+    monitorizare.h \
+    actiuni.h \
+    procese.h \
+    copiere.h \
+    instalare.h
 
 FORMS    += mainwindow.ui \
-    monitorizare.ui
+    monitorizare.ui \
+    actiuni.ui \
+    procese.ui \
+    copiere.ui \
+    instalare.ui
 
 RESOURCES += \
     imagini.qrc
